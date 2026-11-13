@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cyan-glow: #06b6d4;
+    --color-emerald-glow: #10b981;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom smooth tech scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+/* Subtle tech ambient accents */
+.tech-glow-cyan {
+  box-shadow: 0 4px 20px -2px rgba(6, 182, 212, 0.25);
+}
+
+.tech-glow-emerald {
+  box-shadow: 0 4px 20px -2px rgba(16, 185, 129, 0.25);
+}
+
+/* Subtle dot and grid backgrounds on white/light */
+.bg-tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(148, 163, 184, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.1) 1px, transparent 1px);
+}
+
+.bg-circuit-pattern {
+  background-image: radial-gradient(rgba(6, 182, 212, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Store Tech Accessories - Pakistan E-Commerce Store",
+  "description": "Complete modern Pakistani multi-category e-commerce store with tech accessories, clothing, smart watches, Cash on Delivery, and online payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
